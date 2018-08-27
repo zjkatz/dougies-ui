@@ -1,13 +1,13 @@
 import React, { Component } from 'react';
 import { Route } from 'react-router-dom';
-import Menu from './Menu';
+import Menu from './homepage/Menu';
 import './Body.css';
 import Homepage from './Homepage';
-import FeatureBox from './FeatureBox';
-import pdfMenu from '../pdfs/_menu08.pdf';
+import FeatureBox from './homepage/FeatureBox';
+// import pdfMenu from '../pdfs/_menu08.pdf';
 
-import OtherLocations from '../otherLocationsPage/OtherLocations';
-import HomepageContent from './HomepageContent';
+import OtherLocations from './otherLocationsPage/OtherLocations';
+import HomepageContent from './homepage/HomepageContent';
 
 class Body extends Component {
     render() {

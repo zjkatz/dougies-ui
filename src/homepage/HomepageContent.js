@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { Route } from 'react-router-dom';
 import Menu from './Menu';
 import './HomepageContent.css';
-import Homepage from './Homepage';
+import Homepage from '../Homepage';
 import FeatureBox from './FeatureBox';
 import pdfMenu from '../pdfs/_menu08.pdf';
 import Footer from './Footer';
