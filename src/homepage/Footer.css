@@ -1,0 +1,123 @@
+
+.social-media-list {
+    /* background-color: rgb(17, 101, 175); */
+    height: 120px;
+    width: 490px;
+    /* width: 50%; */
+    margin: 0 auto;
+
+    padding-top: 15px;
+}
+
+.social-media-title {
+    height: 63px;
+    width: 490px;
+    /* background-color: blueviolet; */
+
+    font-weight: 500;
+
+}
+
+.social-media-icon-list {
+    width: 490px;
+    height: 52px;
+    /* background-color: orange; */
+    margin-top: 15px;
+
+}
+
+.social-media-icon {
+    height: 52px;
+    width: 52px;
+    /* background-color: greenyellow; */
+
+
+}
+
+.facebook {
+    background-image: url('../images/facebook-512.png');
+    background-size: cover;
+}
+
+.twitter {
+    background-image: url('../images/twitter_circle-512.png');
+    background-size: cover;
+}
+
+.instagram {
+    background-image: url('../images/instagram-circle-512.png');
+    background-size: cover;
+}
+
+.social-media-icon-list-html li {
+    margin-right: 10px;
+}
+
+.catering-container {
+    font-size: 30px;
+    line-height: 35px;
+    text-align: center;
+    padding: 35px 0 30px;
+    font-weight: 350;
+
+}
+
+@media (min-width:768px) {
+    .mobile-friendly-catering-text {
+        display: none;
+    }
+    .full-catering-text {
+        display: block;
+    }
+    .catering-text-container {
+        width: 450px;
+    }
+}
+
+@media (max-width:768px) {
+    .full-catering-text {
+        display: none;
+    }
+    .mobile-friendly-catering-text {
+        display: block;
+    }
+    .catering-text-container {
+        width: 350px;
+    }
+ } 
+ 
+
+/* .catering-text {
+    display: block;
+} */
+
+.catering-text-container {
+    background-color: rgba(194, 187, 187, 0.7);
+    /* width: 450px; */
+    margin: 0 auto;
+    border-radius: 5px;
+    color: #222;
+}
+
+.copyright-footer {
+    position: absolute;
+    bottom: 1px;
+    width: 100%;
+
+    font-size: 14px;
+    
+}
+
+.inquiries-text {
+    display: block;
+}
+
+.inquiries-footer a {
+    text-decoration: underline;
+    color: rgb(65, 65, 252);
+}
+/* a:link { text-decoration: none; color : white; border: 0px; -moz-outline-style: none;}
+a:active { text-decoration: none; color : white; border: 0px; -moz-outline-style: none;}
+a:visited { text-decoration: none; color : white; border: 0px; -moz-outline-style: none;}
+a:hover { text-decoration: none; color : rgb(228, 140, 9); border: 0px; -moz-outline-style: none;} 
+a:focus { outline: none;-moz-outline-style: none;} */

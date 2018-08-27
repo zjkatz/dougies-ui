@@ -1,0 +1,48 @@
+.location-module {
+    /* height: 49%;
+    width: 49%;
+    display: inline-block;*/
+
+
+    height:188px;
+    width: 320px;
+    display: inline-block;
+    position: relative;
+}
+
+.location-module-container {
+    height: 169px;
+    width: 90%;
+    margin: auto;
+    position: relative;
+    
+    
+}
+
+@media (max-width:768px) {
+    .location-module-container {
+        width: 70%;
+    }
+
+ } 
+
+.location-module-text-container {
+
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.location-module-container:hover {
+    border: 0.5px solid black;
+    cursor: pointer;
+    background-color: rgba(194, 187, 187, 0.9);
+}
+
+.location-module-text {
+    vertical-align: middle;
+}
+
+.location-module-container-link {
+    color: black !important
+}

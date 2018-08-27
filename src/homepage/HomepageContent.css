@@ -1,0 +1,112 @@
+
+.body-top {
+    background-color: white;
+    min-height: 475px;
+    /* min-height: 525; */
+    color: #222;
+    position: relative;
+
+    width: 100%;
+
+    /* overflow: auto;   */
+}
+
+.body-bottom {
+    height: 300px;
+    opacity: 1.0;
+
+    background-image: url('../images/james-sutton-198306-unsplash.jpg');
+    background-size: cover;
+    /* background-attachment: fixed; */
+    /* background-repeat: no-repeat; */
+
+    width: 100%;
+}
+
+ @media (min-width:768px) {
+    .body-bottom {
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+    }
+
+ } 
+
+.body-footer {
+    height: 280px;
+    background-color: rgb(83, 56, 56);
+    position: relative;
+
+    color: rgb(161, 159, 159);
+
+    width: 100%;
+}
+
+
+.body-top-container {
+    /* background-color: white; */
+    position: relative; /*not absolute*/
+    top: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.title-text {
+    font-size: 40px;
+    line-height: 40px;
+    text-align: center;
+    padding: 35px 0 30px;
+    font-weight: 550;
+}
+
+.box-container {
+    /* height:60%; */
+    width:80%;
+    margin: 0 auto;
+    position: relative;
+    text-align: center;
+}
+
+/*
+.box-one {
+
+    background-image: url('../images/lukas-blazek-261682-unsplash.jpg');
+    background-size: cover;
+
+    height: 100%;
+    width: 100%;
+}
+
+
+.box-two {
+
+    background-image: url('../images/dragne-marius-117368-unsplash.jpg');
+    background-size: cover;
+
+    height: 100%;
+    width: 100%;
+}
+
+.box-three {
+
+    background-image: url('../images/danny-gallegos-376799-unsplash.jpg');
+    background-size: cover;
+
+    height: 100%;
+    width: 100%;
+}
+*/
+
+
+.menu-text-background {
+    background-color: rgba(194, 187, 187, 0.7);
+    /* padding: 5px; */
+    padding: 5px 30px;
+    color: #222 !important;
+    border-radius: 5px;
+}
+.menu-text-background:hover{
+    cursor: pointer;
+    background-color: rgba(194, 187, 187, 0.9);
+    color: #222;
+}
+

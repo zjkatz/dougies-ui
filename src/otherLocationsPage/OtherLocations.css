@@ -1,0 +1,29 @@
+.other-location-top {
+    /* background-color: white; */
+    min-height: 475px;
+    color: #222;
+    position: relative;
+    top: 0;
+}
+
+
+.white-background {
+    background-color: white;
+    min-height: 80vh;
+    width: 70vw;
+    margin: 0 auto;
+    padding-top:30px;
+    text-align: center;
+    color: #222;
+    position: relative;
+}
+
+.locations-module-container {
+    height: 90%;
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+    padding-top: 60px;
+}
+
+
