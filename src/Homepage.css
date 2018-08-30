@@ -29,10 +29,11 @@
     overflow:auto;  */
 
     position: relative;
+    
   }
   
   #home {
-    height:100vh;
+    height:100%;
 
     
     
